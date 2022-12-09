@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5, CSS3 and JavaScript 6th Edition
+   Tutorial 11
+   Case Problem 4
+   
+   Search Game Style Sheet
+   
+   Filename: kg_search.css
+
+*/
+
+table#wordSearchTable {
+  margin: 0px auto;
+}
+
+table#wordSearchTable caption {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  caption-side: top;
+  text-align: center;
+  margin: 0px 0px 20px;
+  color: rgb(101, 191, 101);
+}
+
+table#wordSearchTable td {
+  border: 1px solid rgb(101, 191, 101);
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+#buttons {
+  display: flex;
+}
+
+input#showSolution,
+input#clearSolution {
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+  background-color: white;
+  height: 70px;
+  font-size: 1.4em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 50%;
+  border: 8px double rgb(255, 200, 158);
+  cursor: pointer;
+}
+
+input#showSolution:hover {
+  color: white;
+  background-color: rgb(101, 191, 101);
+}
+input#clearSolution:hover {
+  color: white;
+  background-color: rgb(255, 100, 108);
+}
+
+input#pickedLetters {
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+ul#wordSearchList {
+  font-size: 1.3em;
+  column-width: 100px;
+}
+
+ul#wordSearchList {
+  line-height: 1.4em;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+    Tutorial 11
+    Case Problem 4
+    
+    Kidder Garden Page
+    Author: Hesbon Osoro
+    Date: 12/10/22   
+
+    Filename: kg_search.html
+   -->
+
+    <title>Wordsearch at Kidder Garden</title>
+    <meta charset="utf-8" />
+    <link href="kg_reset.css" rel="stylesheet" />
+    <link href="kg_layout.css" rel="stylesheet" />
+    <link href="kg_search.css" rel="stylesheet" />
+    <script src="kg_maketable.js" async></script>
+    <script src="kg_search.js" async></script>
+  </head>
+
+  <body>
+    <section id="left"></section>
+    <section id="main">
+      <header>
+        <img src="kg_logo.png" alt="Kidder Garden" />
+        <nav id="top">
+          <ul>
+            <li><a href="#">puzzles</a></li>
+            <li><a href="#">games</a></li>
+            <li><a href="#">riddles</a></li>
+            <li><a href="#">jokes</a></li>
+            <li><a href="#">stories</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        <figure id="wordTable"></figure>
+        <div id="buttons">
+          <input type="button" value="Show Solution" id="showSolution" />
+          <input type="button" value="Clear Solution" id="clearSolution" />
+        </div>
+      </article>
+      <aside>
+        <h1 id="wordSearchTitle"></h1>
+        <input type="text" id="pickedLetters" readonly />
+        <figure id="wordList"></figure>
+      </aside>
+      <footer>
+        <p>Kidder Garden &copy; 2018 All Rights Reserved</p>
+      </footer>
+    </section>
+    <section id="right"></section>
+  </body>
+</html>
